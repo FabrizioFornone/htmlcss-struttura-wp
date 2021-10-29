@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 150px;
+  background-color: rgb(184, 130, 235);
+}
+
+.row {
+  height: 500px;
+}
+
+.row.jumbotron {
+  background-color: rgb(236, 204, 61);
+  margin: 20px 0;
+}
+
+.container-clearfix {
+  background-color: blue;
+  margin-bottom: 10px;
+}
+
+.container-clearfix::after {
+  clear: both;
+}
+
+.container-clearfix > div:first-child {
+  height: 100px;
+  background-color: rgb(108, 174, 212);
+}
+
+.row.float {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.row.float div {
+  height: 100%;
+}
+
+.row.float div:not(.middle) {
+  background-color: rgb(108, 174, 212);
+}
+
+.space {
+  float: left;
+}
+
+.left,
+.right {
+  width: 300px;
+}
+
+.middle {
+  padding: 0 20px;
+  width: calc(100% - 600px);
+}
+
+footer {
+  background-color: rgb(70, 16, 172);
+  height: 50px;
+}
