@@ -54,12 +54,12 @@ header {
 
 .left,
 .right {
-  width: 300px;
+  width: 15%;
 }
 
 .middle {
   padding: 0 20px;
-  width: calc(100% - 600px);
+  width: 70%;
 }
 
 footer {
