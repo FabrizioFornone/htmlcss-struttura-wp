@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+.container {
+  width: 1500px;
+  margin: 20px auto;
+}
+
 header {
   height: 150px;
   background-color: rgb(184, 130, 235);
