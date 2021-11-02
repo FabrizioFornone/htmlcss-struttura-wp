@@ -28,12 +28,6 @@ header {
   margin-bottom: 10px;
 }
 
-.container-clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .container-clearfix > div:first-child {
   height: 100px;
   background-color: rgb(108, 174, 212);
@@ -45,6 +39,11 @@ header {
   width: 100%;
 }
 
+.row.float::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .row.float div {
   height: 100%;
 }
